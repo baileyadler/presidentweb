@@ -38,7 +38,14 @@ text-shadow: 8px 8px rgb(19, 9, 107);
     }
     .card{
        background-color: rgb(180, 250, 250);
-    }
+      height:500px;
+      width:300px;
+      display:flex;
+      flex-direction: column;
+      margin-bottom: 25px;
+      justify-content: space-between;
+
+      }
     .navbar-toggler{
       background-color: green;
     }
@@ -87,9 +94,28 @@ text-shadow: 8px 8px rgb(19, 9, 107);
        background-color:rgb(180, 250, 250);
     }
     .card-img-top{
-       height:330px;
+       height:100px;
     }
     .body{
-      background-image:linear-gradient(to right,white, rgb(153, 151, 151),rgb(236, 236, 206), white );
+      background-color: rgb(231, 216, 216);
     }
-    
+.carousel-control-prev-icon{
+   background-color: black;
+}
+.carousel-control-next-icon{
+   background-color:black;
+}
+.carousel-control-next{
+   background-color: transparent;
+}
+.carousel-control-prev{
+   background-color: transparent;
+}
+.carousel{
+   background-image: url(roseve.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.card-text{
+   font-size: 16px;
+}
