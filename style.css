@@ -24,7 +24,7 @@ div.cssanimation{
 color:rgb(250, 250, 255);
 text-align: center;
 font-size: 90px;
-margin-top:140px;
+margin-top:260px;
 font-family: "goodlife-brush", sans-serif;
 font-weight: 400;
 font-style: normal;
@@ -32,12 +32,13 @@ text-shadow: 8px 8px rgb(19, 9, 107);
 
 }
     .red{
-       background-image: url(Screenshot\ 2025-02-15\ at\ 12.17.33\ AM.png);
+       background-image: url(backk.png);
        background-repeat: no-repeat;
        background-size: cover;
     }
+
     .card{
-       background-color: rgb(180, 250, 250);
+       background-color: rgb(190, 211, 211);
       height:500px;
       width:300px;
       display:flex;
@@ -47,7 +48,7 @@ text-shadow: 8px 8px rgb(19, 9, 107);
 
       }
     .navbar-toggler{
-      background-color: green;
+      background-color: rgb(152, 193, 255);
     }
    
  .navbar-brand{
@@ -118,4 +119,7 @@ text-shadow: 8px 8px rgb(19, 9, 107);
 }
 .card-text{
    font-size: 16px;
+}
+div.bk{
+   background-image: url(https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExaTN2MXZhbDg3c2Y1OGZhaWcwbGQyNG1yaW40NnYybXprMW11OTN1MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LSbEcIiTmV8JJuloOp/giphy.gif);
 }
