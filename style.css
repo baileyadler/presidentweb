@@ -25,7 +25,7 @@ text-align: center;
     50% { transform: translateY(30px) }
 }
 .row{
-   background-color: rgb(87, 107, 107);
+   opacity:0.9;
 }
 .button{
    background-color: aqua;
@@ -52,8 +52,7 @@ font-style: normal;
 text-shadow: 8px 8px rgb(19, 9, 107);
 }
     .red{
-       background-image: url(backk.png);
-       background-repeat: no-repeat;
+       background-image: url(ro.jpg);
        background-size: cover;
     }
 
@@ -68,9 +67,6 @@ text-shadow: 8px 8px rgb(19, 9, 107);
 
       }
       .col-md-3{
-         background-color: brown;
-         border: 3px;
-         border-style: solid;
          display:flex;
          justify-content: center;
       }
@@ -141,10 +137,14 @@ text-shadow: 8px 8px rgb(19, 9, 107);
    background-color: transparent;
 }
 .carousel{
-   background-image: url(roseve.jpg);
+   background-image: url(sit.jpg);
    background-repeat: no-repeat;
    background-size: cover;
 }
 .card-text{
    font-size: 16px;
+}
+.bod{
+   background-image:url(roseve.jpg) ;
+   margin-top:10px;
 }
