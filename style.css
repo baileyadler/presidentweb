@@ -151,9 +151,9 @@ text-shadow: 8px 8px rgb(19, 9, 107);
 /*start*/
 .overlay-container {
    position: relative;
-   width: 100%;
-   height: 90vh; /* Adjust the height as needed */
-   background-image: url(roseve.jpg);
+   width: 1800px;
+   height:800px; /* Adjust the height as needed */
+   background-image: url(true.jpg);
    background-size: cover;
    background-position: center;
  }
@@ -227,4 +227,10 @@ text-shadow: 8px 8px rgb(19, 9, 107);
    100% {
      left: 50%; /* Stop at the middle */
    }
+ }
+
+ div.vid{
+  margin-bottom:600px;
+  padding:30px;
+  
  }
