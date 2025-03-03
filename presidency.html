@@ -59,17 +59,48 @@
       <div class="container-fluid">
         <div class="row text-center justify-content-center py-3">
           <div class="col-12 align-items-center">
-          
-                
-            </div>
+
+
+          <div class="overlay-container">
+            <div class="overlay"></div>
+            <div class="content">
+              <div class="cssanimation effect3d"> Teddy Roosevelt</div>
+
+          <div class="moving-text">
+            <h2>The 26th President,</h2>
+          </div>
+        
         </div>
-      </div>
+
+       
+    
+    
+
+
+
+              
+            </div>
+          </div>
+
+
+
+        </div>
+        </div>
+      
      
       
       
       </main>
       <!-- place footer here -->
-
+<script>
+   var quotesArray = [
+        'Roosevelt',
+        'ok',
+        'teddy'
+    ];
+    var randomNumber = Math.floor(Math.random() * quotesArray.length);
+    document.getElementById('press-quote').textContent = '“' + quotesArray[randomNumber].split(' — ')[0] + '” —' + quotesArray[randomNumber].split(' —')[1] ;
+</script>
      
     <!-- Bootstrap JavaScript Libraries -->
     <script

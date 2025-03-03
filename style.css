@@ -27,7 +27,6 @@ text-align: center;
 .row{
    opacity:0.9;
 }
-
 div.cssanimation{
 color:rgb(250, 250, 255);
 text-align: center;
@@ -68,6 +67,7 @@ text-shadow: 8px 8px rgb(19, 9, 107);
    font-weight: 400;
    font-style: normal;
    color:black;
+   
 
  }
 
@@ -124,7 +124,7 @@ text-shadow: 8px 8px rgb(19, 9, 107);
    background-color: transparent;
 }
 .carousel{
-   background-image: url(sit.jpg);
+   background-image: url(ro.jpg);
    background-repeat: no-repeat;
    background-size: cover;
 }
@@ -132,6 +132,99 @@ text-shadow: 8px 8px rgb(19, 9, 107);
    font-size: 16px;
 }
 .bod{
-   background-image:url(roseve.jpg) ;
-   margin-top:10px;
+   
+   background-repeat: no-repeat;
+   background-position: center 30%;
+   background-size: contain;
+   background-attachment: fixed;
+   font-family: "joly-text", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size:34px;
+   margin:0;
+   height:140vh;
+   width:100%;
 }
+
+
+
+/*start*/
+.overlay-container {
+   position: relative;
+   width: 100%;
+   height: 90vh; /* Adjust the height as needed */
+   background-image: url(roseve.jpg);
+   background-size: cover;
+   background-position: center;
+ }
+ 
+ .overlay {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.5); 
+ }
+ 
+ .content {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   text-align: center;
+   color: white;
+   font-size: 2rem;
+   width:1000px;
+ }
+ h2{
+   color:white;
+   font-size:40px;
+   margin-top:10px;
+ }
+
+ .effect3d {
+   animation: effect3d 3s infinite; /* Add the duration (3s) and the type of animation (infinite loop) */
+ }
+ 
+ @keyframes effect3d {
+   0% {
+     text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, .1), 0 0 5px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .3), 0 3px 5px rgba(0, 0, 0, .2), 0 5px 10px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .2), 0 20px 20px rgba(0, 0, 0, .15);
+   }
+   100% {
+     text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, .1), 0 0 5px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .3), 0 3px 5px rgba(0, 0, 0, .2), 0 5px 10px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .2), 0 20px 20px rgba(0, 0, 0, .15);
+   }
+ }
+ 
+
+
+
+
+
+
+ 
+/* Moving text style inside the box */
+.moving-text {
+   position: absolute;
+   white-space: nowrap; /* Keeps the text in a single line */
+   animation: moveText 15s linear forwards; /* Slower movement with 'forwards' to stop at the end */
+   top: 50%; /* Center text vertically */
+   left: -100%; /* Start the text off-screen to the left */
+   transform: translate(-50%, -50%); /* Adjust the positioning by 50% to truly center */
+   font-size: 24px;
+   font-weight: bold;
+   color: #FF5733; /* Change to your desired color */
+ }
+ 
+ /* Keyframes to move the text from left to right */
+ @keyframes moveText {
+   0% {
+     left: -100%; /* Start off-screen to the left */
+   }
+   50% {
+     left: 50%; /* Middle of the screen */
+   }
+   100% {
+     left: 50%; /* Stop at the middle */
+   }
+ }
